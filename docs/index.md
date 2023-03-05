@@ -284,7 +284,7 @@ If we want to balance our characters, we will have to take a look at their DPS. 
 
 Based on our calculations, Riona's DPS is 50 to Squell's roughly 42, pretty much in balance. However, we have to acknowledge the fact that Riona has MP to use his damaging spells, whereas Squell does not (he just attacks). And some of Riona’s spells will be stronger than others. Thus, we cannot calculate her DPS using Magical Power alone. Instead, let's delve a bit deeper.
 
-###Spells
+### Spells
 
 With magical power we will determine the value of each individual spell. We will consider three kinds of spells: fireball 1 (single target and cheap to cast), fireball 2 (with higher mana cost and damage than fireball 1), and meteor (area of effect).
 
