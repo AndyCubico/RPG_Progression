@@ -304,7 +304,7 @@ We know that Squell's base DPS is 50, and that Riona's is approximately 100 when
 
 ![Rionas_Squell_Equation](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/squell_riona.png)
 
-> y = 5/8 and x = 3/8 where y is the time that he has to be with Attack damage and x the time that she can cast spells.
+> y = 5/8 and x = 3/8 where y is the time that she has to be with Attack damage and x the time that she can cast spells.
 
 This means that in order to both have the same damage output, Riona would have to be 5/8 time (around 60% of the time) out of mana, which means that she is a little bit overpowered.
 
