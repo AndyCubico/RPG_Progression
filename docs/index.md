@@ -278,11 +278,11 @@ Now let's create a second party member, a mage called Riona with the following s
 
 If we want to balance our characters, we will have to take a look at their DPS. Let’s compare them:
 
->Chroud's DPS = Attack Power / ATB Speed = 500/12 = 42.7
+>Squell's DPS = Attack Power / ATB Speed = 500/12 = 42.7
 
->Jane's DPS = Magical Power / ATB Speed = 500/10 = 50
+>Riona's DPS = Magical Power / ATB Speed = 500/10 = 50
 
-Based on our calculations, Rinoa's DPS is 50 to Squell's roughly 42, pretty much in balance. However, we have to acknowledge the fact that Riona has MP to use his damaging spells, whereas Squell does not (he just attacks). And some of Riona’s spells will be stronger than others. Thus, we cannot calculate her DPS using Magical Power alone. Instead, let's delve a bit deeper.
+Based on our calculations, Riona's DPS is 50 to Squell's roughly 42, pretty much in balance. However, we have to acknowledge the fact that Riona has MP to use his damaging spells, whereas Squell does not (he just attacks). And some of Riona’s spells will be stronger than others. Thus, we cannot calculate her DPS using Magical Power alone. Instead, let's delve a bit deeper.
 
 ###Spells
 
