@@ -1,6 +1,4 @@
 
-# RPG PROGRESSION
-
 Welcome! This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
 
 ## Introduction
@@ -101,6 +99,31 @@ Most RPGs integrate these systems together, FFIX keeps the traditional xp leveli
 ![Level Up FFIX](https://user-images.githubusercontent.com/99950309/222971666-4b337a2f-e51e-4210-9883-e615f675c609.png)
 
 ![Equipment FFIX](https://user-images.githubusercontent.com/99950309/222971619-f8df9862-36c2-476b-b737-1ccdeace02e4.png)
+
+## Math in progression systems
+
+![Bender](https://media.tenor.com/PZomwjyO_78AAAAd/bender-we-need-to-use-math.gif)
+
+As we have seen, the most typical way in RPGs to create a progression system is with level progression requiring a given number of experience to reach each level.
+In order to see how to create such a system, we will see 4 different types of functions where we plot the values of the experience required(y) and the current level(x). With these, we will be able to define how much experience (and time) the player invests in the game in order to gain a level. This are the curves that we will see:
+
+![curves](https://user-images.githubusercontent.com/99950309/222972447-4bc62cc5-6a07-449c-ae64-a054a347f9f4.png)
+
+>Example of progression curves: Linear (blue, A), logarithmic (orange, B), quadratic (red, C) and exponential (green, D).
+
+If our experience curve is linear, each level will require the same amount of extra amount of experience with the following function:
+
+Linear curves for the purpose of determining the xp required to level are not used given how boring they can be, since they are predictable and can feel grindy. However, they can be used to make the progress of some stats with each level increase.
+
+If we use an exponential curve or polynomial, the player will need more experience to reach the next level that the previous one, and therefore the player levels-up slower at the end game. 
+
+And if we use a logarithmic curve, at every level we will need less experience than the previous level. The exponential and plolynomial are the most popoulars in RPGs, but you can choose whichever you see fit for your gameplay ideas.
+
+Mind that exponential and polynomial curves have a subtle difference, while the exponential curves grow at the same ratio all the time (having astronomical values beyond any reasonable expectation of achievement), the polynomial growth actually gets smaller as the level increases. In exponential progression systems we will have to raise the rewards to keep up with the level required to get them (easily exploitable, since you can kill a harder boss and get so much xp that you rush through the game). In polynomial systems they can get grindy since and repetitive since the differences at higher levels are too subtle.
+
+### Examples:
+
+
 
 
 
