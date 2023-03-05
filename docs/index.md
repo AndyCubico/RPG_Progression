@@ -1,7 +1,7 @@
 
 Welcome! This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
 
-## Introduction
+# Introduction
 
 Most players are familiar with the concept of difficulty progression, the fact that games should get harder over time. However, difficulty is only one portion of the progress of a game, and there are other elements that require to be structured and managed carefully so that the videogame can provide the user with a compelling and enjoyable experience throughout the gameplay. With that in mind, let’s see what Gameplay progression really is.
 This are a couple of definitions of the term that we can get from Oxford Languages:
@@ -100,7 +100,7 @@ Most RPGs integrate these systems together, FFIX keeps the traditional xp leveli
 
 ![Equipment FFIX](https://user-images.githubusercontent.com/99950309/222971619-f8df9862-36c2-476b-b737-1ccdeace02e4.png)
 
-## Math in progression systems
+# Math in progression systems
 
 ![Bender](https://media.tenor.com/PZomwjyO_78AAAAd/bender-we-need-to-use-math.gif)
 
@@ -178,7 +178,36 @@ Where diff if a difficulty factor, MXP is the basic experience given by a monste
 
 
 
-## Game loop and avoiding repetition
+# Game loop and avoiding repetition
+
+In order to have a good progression system and keep the flow of the game, it is very important to try to hide the game loop, that is, avoiding repetition. 
+We should avoid introducing grinding in our game, limiting the player’s ability to progress is reduced to a few set options, and everything else will not move them forward.
+When players are forced to make a number of repetitive tasks just to collect enough points to level up, that is usually not fun for them. The player’s actual skill progression is not accurately tied to in-game progression. Adjust the difficulty level accordingly to avoid this kind of situation. One interesting way of tackling this problem is the level progression of chrono cross, where you only level up when you defeat the bosses, earning also stars for the sense of reward, allowing you to become stronger and advance to the next level.
+
+![chronocross](https://user-images.githubusercontent.com/99950309/222974776-d40876cd-3af1-4a01-a6bc-22479565f8bf.png)
+
+We should also not be aiming to create what is called skinner boxes, psychological traps designed to keep us playing the game. Progression systems don't need to be skinner boxes to be good. Progression systems should be part of the experience of the game, and not something merely created to keep the player playing the game, adding play hours and no content.
+Progression systems can add a long-term strategic component to our game. Most decisions that the player makes while playing are pondered in brief moments, but with a great progression system we can give the player the opportunity to plan out and contemplate these decisions for hours or even days (planning builds). An example of this could be the talent tree in World of Warcraft:
+
+![wowSkill](https://user-images.githubusercontent.com/99950309/222974815-fd43d772-b96a-48e1-8a54-20a1546b8fee.png)
+
+Anyone who has played an MMO knows how much time they can spend thinking about a build, to maximize damage output or be the tankiest character in the game. This adds a lot to the game, since you can have something to brainstorm about even when you are not playing the game.Be mindful of rewarding the player for thinking through the strategic conundrum that you are presenting, and a way to backtrack if they are not happy with the results of their build (re-spec).
+
+Progression systems can also be created in such a way that the player shapes their learning curve and complexity of the game. That can be done with gated access to the game mechanics, introducing the elements one by one, allowing the player to familiarize with the given mechanic and get comfortable with it before moving on to the next one. Unlike tutorials, the player has control over how long each step of the learning curve takes, since if they have completely figured out the mechanic, they will be more efficient doing the challenges related to it, making them progress faster towards the next one.
+
+![SelfRegulatingCurve](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/SelfRegulatingCurve.png)
+
+A progression system can also enhance your narrative, for instance, faction progression, where actions you take affect your alignment with a faction in the game's world.
+
+![ME reputation](https://user-images.githubusercontent.com/99950309/222974977-b5ac012e-3e58-4b1f-871f-d217b37719ef.png)
+>Mass Effect's reputation system is a great example of this.
+
+
+# Game Balance
+
+
+
+
 
 
 
