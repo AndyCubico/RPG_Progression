@@ -26,23 +26,23 @@ All of these definitions could be applied to video games, since both the pattern
 
 Progression in video games can be divided into the three following categories depending on which is the focus:
 
-1. Player progression: improvement of the skill and knowledge of the game that is being played. Many action based games are designed around this concept.
+1.-Player progression: improvement of the skill and knowledge of the game that is being played. Many action based games are designed around this concept.
 
 ![you died](https://i.ytimg.com/vi/-ZGlaAxB7nI/maxresdefault.jpg)
 > After dying many times, in souls games the player gets better and can defeat the challenge that he is facing.
 
-2. Character or abstracted progression: our character becomes stronger outside of the player’s skill. RPGs are the best example of this (leveling up)
+2.-Character or abstracted progression: our character becomes stronger outside of the player’s skill. RPGs are the best example of this (leveling up)
 
 ![level up](https://media.rawg.io/media/crop/600/400/screenshots/062/0622bec29ae3ef0e8762a9c9f3e7b0f4.jpg)
 
-3. Game progression: moving through the different levels and areas of the game until reaching the credits.
+3.-Game progression: moving through the different levels and areas of the game until reaching the credits.
 
 ![kojima](https://media.tenor.com/NRCKemMTCx8AAAAC/hideo-kojima-credits.gif)
 
 
 There are also 5 key elements of gameplay progression that we have to keep in mind in order to create a good progression system:
 
-1. Game Mechanics: they directly affect the control complexity and the learning curve of the game. There are two ways to create this progress:
+1.-Game Mechanics: they directly affect the control complexity and the learning curve of the game. There are two ways to create this progress:
   - Gated access: make some mechanics unavailable initially. Metroidvanias are a great example.
   
   ![HK](https://i0.wp.com/playerassist.com/wp-content/uploads/2021/11/258188612_301604788635894_7952432341718812820_n.jpeg?fit=828%2C466&ssl=1)
@@ -53,14 +53,16 @@ There are also 5 key elements of gameplay progression that we have to keep in mi
    ![Souls](https://i.ytimg.com/vi/8nmobLqGOsY/maxresdefault.jpg)
    >In souls games you have all the abilities tied to the character from the beginning.
 
-2. Experience duration: how much time it takes to finish a level, stage, mission, which can be increased with mission distance and opponent difficulty.
-3. Scene rewards: create the levels of the game in a way that new visual rewards like exciting environmental wonders or fancy visual effects are staggered at a pace that keeps the player invested in the game.
+2.-Experience duration: how much time it takes to finish a level, stage, mission, which can be increased with mission distance and opponent difficulty.
+
+3.-Scene rewards: create the levels of the game in a way that new visual rewards like exciting environmental wonders or fancy visual effects are staggered at a pace that keeps the player invested in the game.
 
 ![ER](https://user-images.githubusercontent.com/99950309/222971042-3fd4492f-93bc-46d3-8ca0-17279dbdb7b9.png)
 >In Elden Ring, after defeating the first demigod, Elden Ring shows us how much is left to explore.
 
-4. Practical rewards: unlocking new content pieces or upgrading our characters that directly change, expand and improve how the game is played.
-5. Difficulty:  how hard are enemies to beat and also very important, how much risk the player takes in order to beat it with respect to player health (death), weapon durability, use of items (health potions).
+4.-Practical rewards: unlocking new content pieces or upgrading our characters that directly change, expand and improve how the game is played.
+
+5.-Difficulty:  how hard are enemies to beat and also very important, how much risk the player takes in order to beat it with respect to player health (death), weapon durability, use of items (health potions).
 
 If game designers do not structure correctly all these elements, they may overwhelm the user with too much, or boring them with too little so they stop playing. The concept that defines this matter is the Flow.
 Flow is a mental state of operation in which the person is fully immersed in whatever he is doing, with a feeling of energized focus, full involvement, and success in the process of an activity.
@@ -204,6 +206,115 @@ A progression system can also enhance your narrative, for instance, faction prog
 
 
 # Game Balance
+
+We will begin this section with an example of how to balance the party members of a classical RPG and see what problems we could have.
+
+## Character balance
+
+We will begin with the base stats of our main character Squell:
+
+```js
+Strength: 50
+Speed: 25
+Stamina: 40
+Spirit: 20
+Defense: 40
+Magic Defense: 15
+```
+
+Then we will create what are called the **Derived Stats**, the meanings of the base stats used to determine the effectiveness of them in battle. In this case they would be the following:
+
+```js
+Attack Power
+ATB Speed (time until next turn)
+Dodge %
+Hit Points
+Magical Power
+Physical Damage Negated (%)
+Magical Damage Negated (%)
+```
+### Determine Attack Power
+
+In order to determine the attack power of Squell, we will multiply Strength by a constant of 10, since RPGs usually have a big number to show damage.
+
+>Attack Power = Strength * (constant) = 50 * 10 = 500
+
+To make it less boring we could add some variance:
+
+>Attack Power = (Strength * (constant)) +/- 10% = 500 +/- 50 = 500 or 450
+
+Now, Squells’s Attack Power will be somewhere between 450 and 550. 
+
+### Determine Seconds Per Turn and Dodge %
+
+This are based on speed, in this case since this stat should not increase too much throughout the game (otherwise it would be too powerful), we can divide it by the current level, getting a Speed coefficient.
+
+>Speed Coefficient = Speed / Level = 25/20 = 1.25
+
+With this, our character with 25 speed at level 20 would have 1.25 speed coefficient. We will make a table to see if it makes sense and is not too exploitable.
+
+![TableSpeed](https://user-images.githubusercontent.com/99950309/222976708-c6da3ad8-59bc-41e0-8aa7-1cef7169bd77.png)
+
+Looks good enough, now we feel comfortable calculating Squell’s Time until next turn (ATB speed), that is, the time between turns. This value should go down (the faster the character the faster he gets the turn back), to do this we will divide a constant by the speed coefficient.
+
+We will use 15 as our constant, but you can choose any number you like. A higher cosntant will mean more time between turns (slower pace of the game).
+
+>Seconds Per Turn = (constant) / Speed Coefficient = 15/1.25 = 12 
+
+Dodge % is even easier to figure out - just multiply the Speed Coefficient by a constant. Your only limitation would be to pick a reasonable constant, since accidentally choosing a large one would result in a Dodge Rate over 100 percent.
+
+>Dodge (%) = Speed Coefficient * Constant = 1.25 * 10 = 12.5
+
+### The Rest
+We can use similar equations to figure out the rest of Squell's derived stats. For instance, Stamina could be converted to Hit Points merely by multiplying it by a constatn. We would obtain the following table:
+
+![SquellsStats](https://user-images.githubusercontent.com/99950309/222977123-9f3baa40-5c44-4d58-abd1-50b87781113e.png)
+
+## Balancing party members
+
+Now let's create a second party member, a mage called Riona with the following stats:
+
+![RionasStats](https://user-images.githubusercontent.com/99950309/222977326-acc369c2-16de-4ef6-ac57-8cbf5301ecda.png)
+
+If we want to balance our characters, we will have to take a look at their DPS. Let’s compare them:
+
+>Chroud's DPS = Attack Power / ATB Speed = 500/12 = 42.7
+
+>Jane's DPS = Magical Power / ATB Speed = 500/10 = 50
+
+Based on our calculations, Rinoa's DPS is 50 to Squell's roughly 42, pretty much in balance. However, we have to acknowledge the fact that Riona has MP to use his damaging spells, whereas Squell does not (he just attacks). And some of Riona’s spells will be stronger than others. Thus, we cannot calculate her DPS using Magical Power alone. Instead, let's delve a bit deeper.
+
+###Spells
+
+With magical power we will determine the value of each individual spell. We will consider three kinds of spells: fireball 1 (single target and cheap to cast), fireball 2 (with higher mana cost and damage than fireball 1), and meteor (area of effect).
+
+Assuming a Magical Power of 500, the Power and DPS of each spell will function as follows:
+
+![RionasSpells](https://user-images.githubusercontent.com/99950309/222977535-4960af31-033b-4a1f-81f3-fc1bcad946f4.png)
+
+Note that fire 2 costs three times more than 1 and not 2, it would be too efficient, but you can make it cost twice, test and see how it goes.
+We can also see that Meteor is only useful against multiple enemies
+We will divide the damage of each spell by its ATB speed to get the dps, and by its mana cost to get the damage per mana point.
+
+![RionasDPS](https://user-images.githubusercontent.com/99950309/222977586-6148475e-b34c-4b70-a062-89120862d62c.png)
+
+Riona’s Dps could be obtained by multiplying average cost and DPM, getting around 100 (6.67 * 14.86), but we have to remember that her mana pool is limited, and his DPS will drop by 80 percent if he has to use basic attacks (Attack power divided by ATB, 200/10).
+
+We know that Squell's base DPS is 50, and that Riona's is approximately 100 when she has MP and 20 when she does not. In order to figure out the perfect ratio of magical to physical attacks to be equal, we use the following system of equations:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
