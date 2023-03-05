@@ -270,7 +270,7 @@ We can use similar equations to figure out the rest of Squell's derived stats. F
 
 ## Balancing party members
 
-Now let's create a second party member, a mage called Riona with the following stats:
+Now let's create a second party member, a mage called Riona with the following stats at level 20:
 
 ![RionasStats](https://user-images.githubusercontent.com/99950309/222977326-acc369c2-16de-4ef6-ac57-8cbf5301ecda.png)
 
