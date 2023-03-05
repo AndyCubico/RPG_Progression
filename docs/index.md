@@ -1,61 +1,112 @@
 
-# Tetris(1988)
+# RPG PROGRESSION
 
-![game title](https://i0.wp.com/reliveandplay.com/wp-content/uploads/tetris-arcade-portada.jpg?fit=1167%2C723)
+Welcome! This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
 
-## About Us
+## Introduction
 
-We are Quokka Games Studios, a group of students of the bachelor's degree in Video Game Design and Development from CITM, and this is our first project: a tribute to the Tetris created by Atari in 1988.
+Most players are familiar with the concept of difficulty progression, the fact that games should get harder over time. However, difficulty is only one portion of the progress of a game, and there are other elements that require to be structured and managed carefully so that the videogame can provide the user with a compelling and enjoyable experience throughout the gameplay. With that in mind, let’s see what Gameplay progression really is.
+This are a couple of definitions of the term that we can get from Oxford Languages:
 
-## Description of the game
+```js
+noun
+1.forward or onward movement towards a destination.
+"the darkness did not stop my progress"
+2.development towards an improved or more advanced condition.
+"we are making progress towards equal rights"
+```
 
-Tetris is one of the most unique and popular games in history, categorized as a puzzle title, in which the player must place the pieces(tetrominoes) that fall from the top of the screen to create full rows (lines), cleaning lines of blocks. The player wins if they clear the number of lines that the level specifies. The player loses if enough tetrominoes pile up to reach the top of the playfield.
+```js
+verb
+1.move forward or onward in space or time.
+"as the century progressed the quality of telescopes improved"
+2.develop towards an improved or more advanced condition.
+"work on the pond is progressing"
+```
 
-Upon completing each level, the difficulty of the challenge raises, increasing the number of lines that the player must clear, or adding new gimmicks such as: some blocks already placed on the playfield, lines of blocks slowly build up amongst many more challenges.
+All of these definitions could be applied to video games, since both the pattern of advance and the act of moving towards the ultimate goal of beating the game are key to creating an enjoyable experience for the player. This pattern of advance will keep the player in the game loop if done correctly.
 
+Progression in video games can be divided into the three following categories depending on which is the focus:
 
-## Gameplay
+1. Player progression: improvement of the skill and knowledge of the game that is being played. Many action based games are designed around this concept.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-CwoZ7gYu00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![you died](https://i.ytimg.com/vi/-ZGlaAxB7nI/maxresdefault.jpg)
+> After dying many times, in souls games the player gets better and can defeat the challenge that he is facing.
 
-## Controls
+2. Character or abstracted progression: our character becomes stronger outside of the player’s skill. RPGs are the best example of this (leveling up)
 
-### Tetromino movement
+![level up](https://media.rawg.io/media/crop/600/400/screenshots/062/0622bec29ae3ef0e8762a9c9f3e7b0f4.jpg)
 
-#### Keyboard
-* Move right -> D
-* Move left -> A
-* Soft drop -> S
-* Rotate -> R
+3. Game progression: moving through the different levels and areas of the game until reaching the credits.
 
-#### Gamepad
-* Move -> Joystick
-* Rotate -> Any button 
-### Initial screen controls
-
-* Insert credit -> Spacebar 
-* Go to difficulty selection screen -> Enter (requires one credit)
-
-### Difficulty selection screen
-* Movement -> A/D keys
-* Select difficulty-> Enter
-
-### Losing screen
-* Repeat the level -> R
+![kojima](https://media.tenor.com/NRCKemMTCx8AAAAC/hideo-kojima-credits.gif)
 
 
-### Debug controls
-* God Mode -> F1
-* Spawn block manually -> F2 (Hold) + 0 [Random]/ 1 [Red]/ 2 [Green]/ 3 [Blue]/ 4 [Yellow]/ 5 [Pink]/ 6 [Cyan]/ 7 [Orange] 
-* Direct Win -> F3
-* Direct Lose -> F4
-* Go directly to first level from the intro or credits screen -> F5
-* Go to to specific level when playing the game -> F5 (Hold) + 0 [Level 10]/ 1 [Level 1]/ 2 [Level 2]/ 3 [Level 3]/ 4 [Level 4]/ 5 [Level 5]/ 6 [Level 6]/ 7 [Level 7] 
-* Add completed lines / Subtract lines to complete -> F6
+There are also 5 key elements of gameplay progression that we have to keep in mind in order to create a good progression system:
+
+1. Game Mechanics: they directly affect the control complexity and the learning curve of the game. There are two ways to create this progress:
+  - Gated access: make some mechanics unavailable initially. Metroidvanias are a great example.
+  
+  ![HK](https://i0.wp.com/playerassist.com/wp-content/uploads/2021/11/258188612_301604788635894_7952432341718812820_n.jpeg?fit=828%2C466&ssl=1)
+  >Double jump feature in Hollow knight is unlocked later in the game
+  
+  - Directed gameplay: all mechanics are available from the get go, the gameplay will entice the players to use them as the game goes on.
+  
+   ![Souls](https://i.ytimg.com/vi/8nmobLqGOsY/maxresdefault.jpg)
+   >In souls games you have all the abilities tied to the character from the beginning.
+
+2. Experience duration: how much time it takes to finish a level, stage, mission, which can be increased with mission distance and opponent difficulty.
+3. Scene rewards: create the levels of the game in a way that new visual rewards like exciting environmental wonders or fancy visual effects are staggered at a pace that keeps the player invested in the game.
+
+![ER](https://user-images.githubusercontent.com/99950309/222971042-3fd4492f-93bc-46d3-8ca0-17279dbdb7b9.png)
+>In Elden Ring, after defeating the first demigod, Elden Ring shows us how much is left to explore.
+
+4. Practical rewards: unlocking new content pieces or upgrading our characters that directly change, expand and improve how the game is played.
+5. Difficulty:  how hard are enemies to beat and also very important, how much risk the player takes in order to beat it with respect to player health (death), weapon durability, use of items (health potions).
+
+If game designers do not structure correctly all these elements, they may overwhelm the user with too much, or boring them with too little so they stop playing. The concept that defines this matter is the Flow.
+Flow is a mental state of operation in which the person is fully immersed in whatever he is doing, with a feeling of energized focus, full involvement, and success in the process of an activity.
+
+![Flow](https://user-images.githubusercontent.com/99950309/222971230-5e57344f-fa22-4edf-aeaa-aceb46cfcb70.png)
+
+It is key to the design of the game to keep the player on the flow zone, otherwise our users will stop playing the game.
+A good progression system should motivate players to keep playing, no matter if they are winning or losing. As long as the player is moving forward, they will be motivated to keep playing, otherwise they will be frustrated and stop playing the game.
+
+### Type of progression in RPGs
+
+#### Level based progression:
+
+The most classic one, players gain experience points when defeating enemies, leveling up their character when they reach a certain amount of points, becoming stronger when doing so. The following levels usually are harder to get, so it is harder to become stronger as the game goes on.
+Most JRPGs and CRPGs use this system.
+
+
+#### Training progression:
+
+The player increases their power when they perform certain actions or use specific tools to perform these. Skyrim is the best example of this kind of system, where running or killing enemies with a given type of weapon increases the proficiency with it.
+
+![Skyrim](https://user-images.githubusercontent.com/99950309/222971416-153f3a0a-91ec-4df1-b852-269ebc67cbf3.png)
+
+#### Skill tree progression:
+players can customize how their character develops with a skill tree, where they can allocate earned points to gain different kind of abilities, creating a build path to pursue (similar to previous one but it is important to note how you obtain the resources to advance through them and how they are created).
+
+![Borderlands 3](https://user-images.githubusercontent.com/99950309/222971511-c4f7aa38-d6a4-475f-8814-1d071f5c90ee.png)
+
+#### Equipment based progression:
+Player focuses on finding better armor and weapons to upgrade their character, at the cost of giving up whatever they had beforehand. A great example of this is the MH saga.
+
+![MH](https://user-images.githubusercontent.com/99950309/222971576-802d03c0-669b-451b-8624-25dd1d61a711.png)
+
+Most RPGs integrate these systems together, FFIX keeps the traditional xp leveling systems of RPGs and introduces the equipment based progression with training progression, where you have to equip certain items to gain cool new abilities, and when you have used them enough you can get the abilities without the equipment needed.
+
+![Level Up FFIX](https://user-images.githubusercontent.com/99950309/222971666-4b337a2f-e51e-4210-9883-e615f675c609.png)
+
+![Equipment FFIX](https://user-images.githubusercontent.com/99950309/222971619-f8df9862-36c2-476b-b737-1ccdeace02e4.png)
 
 
 
-## Quokka Games Studios
 
-### Team members
+
+
+
+
 
