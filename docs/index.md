@@ -119,17 +119,66 @@ If we use an exponential curve or polynomial, the player will need more experien
 
 And if we use a logarithmic curve, at every level we will need less experience than the previous level. The exponential and plolynomial are the most popoulars in RPGs, but you can choose whichever you see fit for your gameplay ideas.
 
-Mind that exponential and polynomial curves have a subtle difference, while the exponential curves grow at the same ratio all the time (having astronomical values beyond any reasonable expectation of achievement), the polynomial growth actually gets smaller as the level increases. In exponential progression systems we will have to raise the rewards to keep up with the level required to get them (easily exploitable, since you can kill a harder boss and get so much xp that you rush through the game). In polynomial systems they can get grindy since and repetitive since the differences at higher levels are too subtle.
+Mind that exponential and polynomial curves have a subtle difference, while the exponential curves grow at the same ratio all the time (having astronomical values beyond any reasonable expectation of achievement at later levels), the polynomial cruves growth actually gets smaller as the level increases. In exponential progression systems we will have to raise the rewards to keep up with the level required to get them (easily exploitable, since you can kill a harder boss and get so much xp that you rush through the game). Polynomial systems they can get grindy since and repetitive since the differences at higher levels are too subtle.
 
 ### Examples:
 
+- World of Warcraft, we have a formula for the experience required to level up at a certain level:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi mathvariant="normal">&#x394;</mi>
+  <mi>E</mi>
+  <mo stretchy="false">(</mo>
+  <mi>L</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <mo stretchy="false">(</mo>
+  <mo stretchy="false">(</mo>
+  <mn>8</mn>
+  <mo>&#xD7;</mo>
+  <mi>L</mi>
+  <mo stretchy="false">)</mo>
+  <mo>+</mo>
+  <mi>D</mi>
+  <mi>i</mi>
+  <mi>f</mi>
+  <mi>f</mi>
+  <mo stretchy="false">(</mo>
+  <mi>L</mi>
+  <mo stretchy="false">)</mo>
+  <mo stretchy="false">)</mo>
+  <mo>&#xD7;</mo>
+  <mi>M</mi>
+  <mi>X</mi>
+  <mi>P</mi>
+  <mo stretchy="false">(</mo>
+  <mi>L</mi>
+  <mo stretchy="false">)</mo>
+  <mo>&#xD7;</mo>
+  <mi>R</mi>
+  <mi>F</mi>
+  <mo stretchy="false">(</mo>
+  <mi>L</mi>
+  <mo stretchy="false">)</mo>
+</math>
+
+Where diff is a difficulty factor
+Where diff if a difficulty factor, MXP is the basic experience given by a monster of level L and RF is a generic scaling factor. This formula start as a quadratic experience curve and then explode into exponential (thanks to the Diff formula).
+
+![WOW](https://user-images.githubusercontent.com/99950309/222973681-b235f828-b885-4b79-b85e-258925aae025.png)
+
+
+- Diablo 3, the formula varies depending on what threshold of levels is the user:
+
+![diablo3](https://user-images.githubusercontent.com/99950309/222973751-3fbaa123-e76f-44c1-80c1-3cf4f8a42316.png)
+
+- Dreamcast game Armada (Metro 3D, 1999), uses the formula of 8 x (current level)^3 to determine the XP requirements.
+
+![Dreamcast](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/dreamcastgame.jpg)
 
 
 
-
-
-
-
+## Game loop and avoiding repetition
 
 
 
