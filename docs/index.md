@@ -1,5 +1,5 @@
 
-Welcome! This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
+This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
 
 # Introduction
 
@@ -302,23 +302,49 @@ Riona’s Dps could be obtained by multiplying average cost and DPM, getting aro
 
 We know that Squell's base DPS is 50, and that Riona's is approximately 100 when she has MP and 20 when she does not. In order to figure out the perfect ratio of magical to physical attacks to be equal, we use the following system of equations:
 
+![Rionas_Squell_Equation](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/squell_riona.png)
 
+> y = 5/8 and x = 3/8 where y is the time that he has to be with Attack damage and x the time that she can cast spells.
 
+This means that in order to both have the same damage output, Riona would have to be 5/8 time (around 60% of the time) out of mana, which means that she is a little bit overpowered.
 
+We should tinker with the previous values in order to balance it more, or leave as it is if that is our goal.
+Consider this when blancing a your RPG:
 
+1. What are my base stats? What are my derived stats?
+2. Do the party members fall under specific class categories? If so, what are they?
+3. What kind of numbers do I want to see on screen - big ones or small ones?
+4. How much of a factor do I want randomness to play?
+5. Is the scope of my game realistic, or will I end up spending months balancing my game?
 
+Another thing to keep in mind are break points, places in your game where major experiential difference occurs based on minor mathematical differences. In a standard RPG, we could have the case where our character does 100 damage per hit, and the enemies in the zone have 150 hp, this would mean that it takes two hits to kill them. We will consider that when you level up, damage increases by 20 (linear progression of the stat). At level 4, you would have 160 damage, making that you can one shot the enemies, making that the challenge and difficulty of this zone dropped to the floor. It also happens when you can cast your spell twice as much or you are fast enough to always fight first. 
 
+Breakpoints are not the same as power spikes, intentionally inserted mechanics that give the player a larger than normal boost of power when they reach a certain point in the game. A great example could be D&D's spells and abilities, which get more powerful at a certain level.
 
+![fireball](https://user-images.githubusercontent.com/99950309/222978323-f59a4b83-d335-40a8-978a-96a12da38d8d.png)
 
+This gives a good sense of progression, getting you excited to reach new levels. It is important to differentiate the power spike from the breakpoint, since one happens by your choice and the other from unexpected problems of the math of your system. In order to predict or control these breakpoints, you will have to thoroughly test your game and consider if they are really intended power spikes or mistakes from your mathematical system of progression.
+In the case mentioned before of one shoting the enemies, you could make that the rewards at that level in that zone get really bad, so that the player should move forward from that point.
 
+# Conclusions
+- Be mindful of the different ways you can create progression
+- Mix systems so that the game feels varied and fun to progress through
+- Avoid repetition and grinding so that the player does not get bored.
+- There is not one way to create an experience curve, do the one that suits your game better.
+- Play test the game many time to see if there are any breakpoints and the game is generally balanced.
 
+# References
 
-
-
-
-
-
-
-
-
+* [Break Points - Balancing the Math with the User Experience - Extra Credits](https://www.youtube.com/watch?v=A_e_qu9ghHk)
+* [Progression Systems - How Good Games Avoid Skinner Boxes - Extra Credits](https://www.youtube.com/watch?v=S5camMoNw-o)
+* [Robert DellaFave - Balancing Turn-Based RPGs](https://gamedevelopment.tutsplus.com/series/balancing-turn-based-rpgs--gamedev-12702)
+* [Av Thomas KL - The problem of repetition](https://frictionalgames.blogspot.com/2011/11/problem-of-repetition.html)
+* [Josh Bycer - The dangers of grind in game design](https://game-wisdom.com/critical/video-game-grinding)
+* [Josh Bycer - Understanding progression models in game design](https://game-wisdom.com/critical/progression-models)
+* [Gustavo Tondello - Level Up! The role of progression for gameful design](https://medium.com/gameful-design/level-up-the-role-of-progression-for-gameful-design-ce7a87e2b70)
+* [Davide Aversa - GameDesign Math: RPG Level-based Progression](https://www.davideaversa.it/blog/gamedesign-math-rpg-level-based-progression/)
+* [Will Luton - THE MATHEMATICS OF GAME BALANCE](https://departmentofplay.net/the-mathematics-of-balance/)
+* [Chris Bateman  - Mathematics of XP](https://onlyagame.typepad.com/only_a_game/2006/08/mathematics_of_.html)
+* [Megan Smith - 10 RPGs With Equipment-Based Progression](https://gamerant.com/rpgs-equipment-based-progression/#paper-mario)
+* [Rena Darling - 8 Most Unique Leveling And Progression Systems In RPGs](https://www.thegamer.com/most-unique-leveling-progression-systems-rpgs/#camping-downtime---final-fantasy-15)
 
