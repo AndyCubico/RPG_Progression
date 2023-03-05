@@ -1,5 +1,5 @@
 
-This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction of progression systems and a guide in how to create them in a RPG.
+This is a page created by Andreu Nosàs Soler, student of the Bachelor’s Degree in Videogame Design and Development from CITM. It is an introduction to progression systems and a guide in how to create them in a RPG.
 
 # Introduction
 
@@ -211,7 +211,7 @@ We will begin this section with an example of how to balance the party members o
 
 ## Character balance
 
-We will begin with the base stats of our main character Squell:
+This will be the base stats of our main character Squell at level 20:
 
 ```js
 Strength: 50
