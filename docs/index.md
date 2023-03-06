@@ -237,11 +237,11 @@ Magical Damage Negated (%)
 
 In order to determine the attack power of Squell, we will multiply Strength by a constant of 10, since RPGs usually have a big number to show damage.
 
->Attack Power = Strength * (constant) = 50 * 10 = 500
+>Attack Power = Strength * constant = 50 * 10 = 500
 
 To make it less boring we could add some variance:
 
->Attack Power = (Strength * (constant)) +/- 10% = 500 +/- 50 = 500 or 450
+>Attack Power = (Strength * constant) +/- 10% = 500 +/- 50 = 500 or 450
 
 Now, Squells’s Attack Power will be somewhere between 450 and 550. 
 
@@ -259,7 +259,7 @@ Looks good enough, now we feel comfortable calculating Squell’s Time until nex
 
 We will use 15 as our constant, but you can choose any number you like. A higher cosntant will mean more time between turns (slower pace of the game).
 
->Seconds Per Turn = (constant) / Speed Coefficient = 15/1.25 = 12 
+>Seconds Per Turn = constant / Speed Coefficient = 15/1.25 = 12 
 
 Dodge % is easier to determine - just multiply the Speed Coefficient by a constant. Your only limitation would be to pick a reasonable constant, since accidentally choosing a large one would result in a very big Dodge Rate, which would be quite bad gameplaywise.
 
