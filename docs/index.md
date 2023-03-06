@@ -263,6 +263,8 @@ We will use 15 as our constant, but you can choose any number you like. A higher
 
 Dodge % is easier to determine - just multiply the Speed Coefficient by a constant. Your only limitation would be to pick a reasonable constant, since accidentally choosing a large one would result in a very big Dodge Rate, which would be quite bad gameplaywise.
 
+>Dodge % = constant * Speed coefficent = 10 * 1.25 = 12.5
+
 ### The Rest
 We can use similar equations to figure out the rest of Squell's derived stats. For instance, Stamina could be converted to Hit Points merely by multiplying it by a constatn. We would obtain the following table:
 
