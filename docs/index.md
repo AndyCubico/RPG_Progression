@@ -261,7 +261,7 @@ We will use 15 as our constant, but you can choose any number you like. A higher
 
 >Seconds Per Turn = (constant) / Speed Coefficient = 15/1.25 = 12 
 
-Dodge % is the same - just divide the Speed Coefficient by a constant. Your only limitation would be to pick a reasonable constant, since accidentally choosing a large one would result in a Dodge Rate over 100 percent.
+Dodge % is easier to determine - just multiply the Speed Coefficient by a constant. Your only limitation would be to pick a reasonable constant, since accidentally choosing a large one would result in a very big Dodge Rate, which would be quite bad gameplaywise.
 
 ### The Rest
 We can use similar equations to figure out the rest of Squell's derived stats. For instance, Stamina could be converted to Hit Points merely by multiplying it by a constatn. We would obtain the following table:
