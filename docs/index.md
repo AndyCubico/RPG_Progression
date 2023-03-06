@@ -28,16 +28,16 @@ Progression in video games can be divided into the three following categories de
 
 1.-Player progression: improvement of the skill and knowledge of the game that is being played. Many action based games are designed around this concept.
 
-![you died](https://i.ytimg.com/vi/-ZGlaAxB7nI/maxresdefault.jpg)
+![you died](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/maxresdefault.jpg)
 > After dying many times, in souls games the player gets better and can defeat the challenge that he is facing.
 
 2.-Character or abstracted progression: our character becomes stronger outside of the player’s skill. RPGs are the best example of this (leveling up)
 
-![level up](https://media.rawg.io/media/crop/600/400/screenshots/062/0622bec29ae3ef0e8762a9c9f3e7b0f4.jpg)
+![level up](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Mariolvl.jpg)
 
 3.-Game progression: moving through the different levels and areas of the game until reaching the credits.
 
-![kojima](https://media.tenor.com/NRCKemMTCx8AAAAC/hideo-kojima-credits.gif)
+![kojima](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/kojimaCredits.gif?raw=true)
 
 
 There are also 5 key elements of gameplay progression that we have to keep in mind in order to create a good progression system:
@@ -45,19 +45,19 @@ There are also 5 key elements of gameplay progression that we have to keep in mi
 1.-Game Mechanics: they directly affect the control complexity and the learning curve of the game. There are two ways to create this progress:
   - Gated access: make some mechanics unavailable initially. Metroidvanias are a great example.
   
-  ![HK](https://i0.wp.com/playerassist.com/wp-content/uploads/2021/11/258188612_301604788635894_7952432341718812820_n.jpeg?fit=828%2C466&ssl=1)
+  ![HK](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/HKjump.webp)
   >Double jump feature in Hollow knight is unlocked later in the game
   
   - Directed gameplay: all mechanics are available from the get go, the gameplay will entice the players to use them as the game goes on.
   
-   ![Souls](https://i.ytimg.com/vi/8nmobLqGOsY/maxresdefault.jpg)
+   ![Souls](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Souls.jpg?raw=true)
    >In souls games you have all the abilities tied to the character from the beginning.
 
 2.-Experience duration: how much time it takes to finish a level, stage, mission, which can be increased with mission distance and opponent difficulty.
 
 3.-Scene rewards: create the levels of the game in a way that new visual rewards like exciting environmental wonders or fancy visual effects are staggered at a pace that keeps the player invested in the game.
 
-![ER](https://user-images.githubusercontent.com/99950309/222971042-3fd4492f-93bc-46d3-8ca0-17279dbdb7b9.png)
+![ER](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/ER.png?raw=true)
 >In Elden Ring, after defeating the first demigod, Elden Ring shows us how much is left to explore.
 
 4.-Practical rewards: unlocking new content pieces or upgrading our characters that directly change, expand and improve how the game is played.
@@ -67,7 +67,7 @@ There are also 5 key elements of gameplay progression that we have to keep in mi
 If game designers do not structure correctly all these elements, they may overwhelm the user with too much, or boring them with too little so they stop playing. The concept that defines this matter is the Flow.
 Flow is a mental state of operation in which the person is fully immersed in whatever he is doing, with a feeling of energized focus, full involvement, and success in the process of an activity.
 
-![Flow](https://user-images.githubusercontent.com/99950309/222971230-5e57344f-fa22-4edf-aeaa-aceb46cfcb70.png)
+![Flow](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Flow.png?raw=true)
 
 It is key to the design of the game to keep the player on the flow zone, otherwise our users will stop playing the game.
 A good progression system should motivate players to keep playing, no matter if they are winning or losing. As long as the player is moving forward, they will be motivated to keep playing, otherwise they will be frustrated and stop playing the game.
@@ -84,32 +84,32 @@ Most JRPGs and CRPGs use this system.
 
 The player increases their power when they perform certain actions or use specific tools to perform these. Skyrim is the best example of this kind of system, where running or killing enemies with a given type of weapon increases the proficiency with it.
 
-![Skyrim](https://user-images.githubusercontent.com/99950309/222971416-153f3a0a-91ec-4df1-b852-269ebc67cbf3.png)
+![Skyrim](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Skyrim.png?raw=true)
 
 #### Skill tree progression:
 players can customize how their character develops with a skill tree, where they can allocate earned points to gain different kind of abilities, creating a build path to pursue (similar to previous one but it is important to note how you obtain the resources to advance through them and how they are created).
 
-![Borderlands 3](https://user-images.githubusercontent.com/99950309/222971511-c4f7aa38-d6a4-475f-8814-1d071f5c90ee.png)
+![Borderlands 3](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/BL3.png)
 
 #### Equipment based progression:
 Player focuses on finding better armor and weapons to upgrade their character, at the cost of giving up whatever they had beforehand. A great example of this is the MH saga.
 
-![MH](https://user-images.githubusercontent.com/99950309/222971576-802d03c0-669b-451b-8624-25dd1d61a711.png)
+![MH](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/MH.png?raw=true)
 
 Most RPGs integrate these systems together, FFIX keeps the traditional xp leveling systems of RPGs and introduces the equipment based progression with training progression, where you have to equip certain items to gain cool new abilities, and when you have used them enough you can get the abilities without the equipment needed.
 
-![Level Up FFIX](https://user-images.githubusercontent.com/99950309/222971666-4b337a2f-e51e-4210-9883-e615f675c609.png)
+![Level Up FFIX](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/FFIXlvl.png?raw=true)
 
-![Equipment FFIX](https://user-images.githubusercontent.com/99950309/222971619-f8df9862-36c2-476b-b737-1ccdeace02e4.png)
+![Equipment FFIX](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/FFIXequip.png?raw=true)
 
 # Math in progression systems
 
-![Bender](https://media.tenor.com/PZomwjyO_78AAAAd/bender-we-need-to-use-math.gif)
+![Bender](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/Bender.gif)
 
 As we have seen, the most typical way in RPGs to create a progression system is with level progression requiring a given number of experience to reach each level.
 In order to see how to create such a system, we will see 4 different types of functions where we plot the values of the experience required(y) and the current level(x). With these, we will be able to define how much experience (and time) the player invests in the game in order to gain a level. This are the curves that we will see:
 
-![curves](https://user-images.githubusercontent.com/99950309/222972447-4bc62cc5-6a07-449c-ae64-a054a347f9f4.png)
+![curves](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Plots.png?raw=true)
 
 >Example of progression curves: Linear (blue, A), logarithmic (orange, B), quadratic (red, C) and exponential (green, D).
 
@@ -167,16 +167,16 @@ Mind that exponential and polynomial curves have a subtle difference, while the 
 Where diff is a difficulty factor
 Where diff if a difficulty factor, MXP is the basic experience given by a monster of level L and RF is a generic scaling factor. This formula start as a quadratic experience curve and then explode into exponential (thanks to the Diff formula).
 
-![WOW](https://user-images.githubusercontent.com/99950309/222973681-b235f828-b885-4b79-b85e-258925aae025.png)
+![WOW](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/WoWplot.png?raw=true)
 
 
 - Diablo 3, the formula varies depending on what threshold of levels is the user:
 
-![diablo3](https://user-images.githubusercontent.com/99950309/222973751-3fbaa123-e76f-44c1-80c1-3cf4f8a42316.png)
+![diablo3](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/Diabloeq.png)
 
 - Dreamcast game Armada (Metro 3D, 1999), uses the formula of 8 x (current level)^3 to determine the XP requirements.
 
-![Dreamcast](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/dreamcastgame.jpg)
+![Dreamcast](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/dreamcastgame.jpg?raw=true)
 
 
 
@@ -186,12 +186,12 @@ In order to have a good progression system and keep the flow of the game, it is 
 We should avoid introducing grinding in our game, limiting the player’s ability to progress is reduced to a few set options, and everything else will not move them forward.
 When players are forced to make a number of repetitive tasks just to collect enough points to level up, that is usually not fun for them. The player’s actual skill progression is not accurately tied to in-game progression. Adjust the difficulty level accordingly to avoid this kind of situation. One interesting way of tackling this problem is the level progression of chrono cross, where you only level up when you defeat the bosses, earning also stars for the sense of reward, allowing you to become stronger and advance to the next level.
 
-![chronocross](https://user-images.githubusercontent.com/99950309/222974776-d40876cd-3af1-4a01-a6bc-22479565f8bf.png)
+![chronocross](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/ChronoCross.png)
 
 We should also not be aiming to create what is called skinner boxes, psychological traps designed to keep us playing the game. Progression systems don't need to be skinner boxes to be good. Progression systems should be part of the experience of the game, and not something merely created to keep the player playing the game, adding play hours and no content.
 Progression systems can add a long-term strategic component to our game. Most decisions that the player makes while playing are pondered in brief moments, but with a great progression system we can give the player the opportunity to plan out and contemplate these decisions for hours or even days (planning builds). An example of this could be the talent tree in World of Warcraft:
 
-![wowSkill](https://user-images.githubusercontent.com/99950309/222974815-fd43d772-b96a-48e1-8a54-20a1546b8fee.png)
+![wowSkill](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/WoWtree.png?raw=true)
 
 Anyone who has played an MMO knows how much time they can spend thinking about a build, to maximize damage output or be the tankiest character in the game. This adds a lot to the game, since you can have something to brainstorm about even when you are not playing the game.Be mindful of rewarding the player for thinking through the strategic conundrum that you are presenting, and a way to backtrack if they are not happy with the results of their build (re-spec).
 
@@ -201,7 +201,7 @@ Progression systems can also be created in such a way that the player shapes the
 
 A progression system can also enhance your narrative, for instance, faction progression, where actions you take affect your alignment with a faction in the game's world.
 
-![ME reputation](https://user-images.githubusercontent.com/99950309/222974977-b5ac012e-3e58-4b1f-871f-d217b37719ef.png)
+![ME reputation](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/ME3.png?raw=true)
 >Mass Effect's reputation system is a great example of this.
 
 
@@ -253,7 +253,7 @@ This are based on speed, in this case since this stat should not increase too mu
 
 With this, our character with 25 speed at level 20 would have 1.25 speed coefficient. We will make a table to see if it makes sense and is not too exploitable.
 
-![TableSpeed](https://user-images.githubusercontent.com/99950309/222976708-c6da3ad8-59bc-41e0-8aa7-1cef7169bd77.png)
+![TableSpeed](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Stats1.png?raw=true)
 
 Looks good enough, now we feel comfortable calculating Squell’s Time until next turn (ATB speed), that is, the time between turns. This value should go down (the faster the character the faster he gets the turn back), to do this we will divide a constant by the speed coefficient.
 
@@ -268,13 +268,13 @@ Dodge % is easier to determine - just multiply the Speed Coefficient by a consta
 ### The Rest
 We can use similar equations to figure out the rest of Squell's derived stats. For instance, Stamina could be converted to Hit Points merely by multiplying it by a constatn. We would obtain the following table:
 
-![SquellsStats](https://user-images.githubusercontent.com/99950309/222977123-9f3baa40-5c44-4d58-abd1-50b87781113e.png)
+![SquellsStats](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Stats2.png?raw=true)
 
 ## Balancing party members
 
 Now let's create a second party member, a mage called Riona with the following stats at level 20:
 
-![RionasStats](https://user-images.githubusercontent.com/99950309/222977326-acc369c2-16de-4ef6-ac57-8cbf5301ecda.png)
+![RionasStats](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Stats4.png?raw=true)
 
 If we want to balance our characters, we will have to take a look at their DPS. Let’s compare them:
 
@@ -290,13 +290,13 @@ With magical power we will determine the value of each individual spell. We will
 
 Assuming a Magical Power of 500, the Power and DPS of each spell will function as follows:
 
-![RionasSpells](https://user-images.githubusercontent.com/99950309/222977535-4960af31-033b-4a1f-81f3-fc1bcad946f4.png)
+![RionasSpells](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Stats5.png?raw=true)
 
 Note that fire 2 costs three times more than 1 and not 2, it would be too efficient, but you can make it cost twice, test and see how it goes.
 We can also see that Meteor is only useful against multiple enemies
 We will divide the damage of each spell by its ATB speed to get the dps, and by its mana cost to get the damage per mana point.
 
-![RionasDPS](https://user-images.githubusercontent.com/99950309/222977586-6148475e-b34c-4b70-a062-89120862d62c.png)
+![RionasDPS](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Stats6.png?raw=true)
 
 Riona’s Dps could be obtained by multiplying average cost and DPM, getting around 100 (6.67 * 14.86), but we have to remember that her mana pool is limited, and his DPS will drop by 80 percent if he has to use basic attacks (Attack power divided by ATB, 200/10).
 
@@ -321,7 +321,7 @@ Another thing to keep in mind are break points, places in your game where major 
 
 Breakpoints are not the same as power spikes, intentionally inserted mechanics that give the player a larger than normal boost of power when they reach a certain point in the game. A great example could be D&D's spells and abilities, which get more powerful at a certain level.
 
-![fireball](https://user-images.githubusercontent.com/99950309/222978323-f59a4b83-d335-40a8-978a-96a12da38d8d.png)
+![fireball](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Fireball.png?raw=true)
 
 This gives a good sense of progression, getting you excited to reach new levels. It is important to differentiate the power spike from the breakpoint, since one happens by your choice and the other from unexpected problems of the math of your system. In order to predict or control these breakpoints, you will have to thoroughly test your game and consider if they are really intended power spikes or mistakes from your mathematical system of progression.
 In the case mentioned before of one shoting the enemies, you could make that the rewards at that level in that zone get really bad, so that the player should move forward from that point.
