@@ -4,7 +4,10 @@
 Analysis of what is a progression system and how to implement it in a RPG video game.
 
 # About author
-I am Andreu Nosàs Soler, second year student of the Bachelor’s Degree in Videogame Design and Development from CITM. This repository was generated for the subject project II.
+I am Andreu Nosàs Soler, second year student of the Bachelor’s Degree in Videogame Design and Development from CITM. This repository was generated for the subject project II. This are some projects that I have worked on:
+* [Pinky Adventures](https://github.com/lSara-MM/Pinky-Adventures)
+* [Worms by Quokka Studios](https://github.com/lSara-MM/WormsQuokka)
+* [Tetris 1988 by Quokka Studios](https://github.com/lSara-MM/project1-tetris)
 
 # Relevant Links
 * [Break Points - Balancing the Math with the User Experience - Extra Credits](https://www.youtube.com/watch?v=A_e_qu9ghHk)
