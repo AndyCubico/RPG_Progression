@@ -33,7 +33,7 @@ Progression in video games can be divided into the three following categories de
 
 2.-Character or abstracted progression: our character becomes stronger outside of the player’s skill. RPGs are the best example of this (leveling up)
 
-![level up](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Mariolvl.jpg)
+![mario](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/images/Mariolvl.jpg?raw=true)
 
 3.-Game progression: moving through the different levels and areas of the game until reaching the credits.
 
