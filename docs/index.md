@@ -113,7 +113,7 @@ In order to see how to create such a system, we will see 4 different types of fu
 
 >Example of progression curves: Linear (blue, A), logarithmic (orange, B), quadratic (red, C) and exponential (green, D).
 
-If our experience curve is linear, each level will require the same amount of extra amount of experience with the following function:
+If our experience curve is linear, each level will require the same amount of experience than the previous one.
 
 Linear curves for the purpose of determining the xp required to level are not used given how boring they can be, since they are predictable and can feel grindy. However, they can be used to make the progress of some stats with each level increase.
 
@@ -121,7 +121,7 @@ If we use an exponential curve or polynomial, the player will need more experien
 
 And if we use a logarithmic curve, at every level we will need less experience than the previous level. The exponential and plolynomial are the most popoulars in RPGs, but you can choose whichever you see fit for your gameplay ideas.
 
-Mind that exponential and polynomial curves have a subtle difference, while the exponential curves grow at the same ratio all the time (having astronomical values beyond any reasonable expectation of achievement at later levels), the polynomial cruves growth actually gets smaller as the level increases. In exponential progression systems we will have to raise the rewards to keep up with the level required to get them (easily exploitable, since you can kill a harder boss and get so much xp that you rush through the game). Polynomial systems they can get grindy since and repetitive since the differences at higher levels are too subtle.
+Mind that exponential and polynomial curves have a subtle difference, while the exponential curves grow at the same ratio all the time (having astronomical values at later levels), the polynomial cruves growth actually gets smaller as the level increases. In exponential progression systems we will have to raise the rewards to keep up with the level required to get them (easily exploitable, since you can kill a harder boss and get so much xp that you rush through the game). Polynomial systems they can get grindy since and repetitive since the differences at higher levels are too subtle.
 
 ### Examples:
 
