@@ -23,3 +23,4 @@ I am Andreu Nosàs Soler, second year student of the Bachelor’s Degree in Vide
 * [Megan Smith - 10 RPGs With Equipment-Based Progression](https://gamerant.com/rpgs-equipment-based-progression/#paper-mario)
 * [Rena Darling - 8 Most Unique Leveling And Progression Systems In RPGs](https://www.thegamer.com/most-unique-leveling-progression-systems-rpgs/#camping-downtime---final-fantasy-15)
 * [Mike Lopez - Gameplay Design Fundamentals: Gameplay Progression](https://www.gamedeveloper.com/design/gameplay-design-fundamentals-gameplay-progression)
+* [RPG Progression Systems by Adrián Font](https://adrianfr99.github.io/RPG-progression-system/)
