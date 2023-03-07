@@ -331,7 +331,7 @@ In the case mentioned before of one shoting the enemies, you could make that the
 - Mix systems so that the game feels varied and fun to progress through
 - Avoid repetition and grinding so that the player does not get bored.
 - There is not one way to create an experience curve, do the one that suits your game better.
-- Play test the game many time to see if there are any breakpoints and the game is generally balanced.
+- Playtest the game many times to see if there are any breakpoints and the game is generally balanced.
 
 # References
 
