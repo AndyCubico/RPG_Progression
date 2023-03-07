@@ -183,7 +183,7 @@ Where diff if a difficulty factor, MXP is the basic experience given by a monste
 # Game loop and avoiding repetition
 
 In order to have a good progression system and keep the flow of the game, it is very important to try to hide the game loop, that is, avoiding repetition. 
-We should avoid introducing grinding in our game, limiting the player’s ability to progress is reduced to a few set options, and everything else will not move them forward.
+We should avoid introducing grinding in our game, where the player’s ability to progress is reduced to a few set options, and everything else will not move them forward.
 When players are forced to make a number of repetitive tasks just to collect enough points to level up, that is usually not fun for them. The player’s actual skill progression is not accurately tied to in-game progression. Adjust the difficulty level accordingly to avoid this kind of situation. One interesting way of tackling this problem is the level progression of chrono cross, where you only level up when you defeat the bosses, earning also stars for the sense of reward, allowing you to become stronger and advance to the next level.
 
 ![chronocross](https://raw.githubusercontent.com/AndyCubico/RPG_Progression/main/docs/images/ChronoCross.png)
