@@ -333,6 +333,11 @@ In the case mentioned before of one shoting the enemies, you could make that the
 - There is not one way to create an experience curve, do the one that suits your game better.
 - Playtest the game many times to see if there are any breakpoints and the game is generally balanced.
 
+# Template
+
+* [Link to the balance spreadsheet](https://github.com/AndyCubico/RPG_Progression/blob/main/docs/template/Balancing_Spreadsheet.xlsx)
+
+
 # References
 
 * [Break Points - Balancing the Math with the User Experience - Extra Credits](https://www.youtube.com/watch?v=A_e_qu9ghHk)
